@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;   
+}
+body{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+#menu{
+    list-style: none;
+    padding:0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    width: 100%;
+    display: block;
+}
+#menu li {
+    display: inline;
+    padding-left: 30px;  
+    position: relative;
+}
+#menu li a{
+    color: white;
+    padding:20px;
+    text-decoration: none;
+    
+    display: inline-block;   
+}
+#menu li a:hover{
+    background-color:rgba(0, 0, 0, 0.5); 
+    color:#2af598;
+}
+#menu h1{
+    width: 600px;
+    margin-left: 200px;
+    position: absolute;
+    display: inline;
+    margin-top: 7px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+#menu img{
+    width: 80px;
+    margin-left: 800px;
+    margin-top: 3px;
+    position: absolute;
+}
+#menu h1:hover{
+    color:#2af598;
+
+}
+section#ladoesquerdo{
+    display: block;
+    width: 600px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 62px; 
+}
+
+div .video{
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+    
+}
+footer#rodape{
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;  
+    display: block;
+    font-family: 'Dancing Script', cursive;
+}
+footer#rodape a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+footer#rodape a:hover{
+    color:#2af598;
+    transition: color 1s;
+}
